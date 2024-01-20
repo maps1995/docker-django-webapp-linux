@@ -1,5 +1,5 @@
 
-FROM tiangolo/uwsgi-nginx-flask:python3.6
+FROM registry.docker.ir/tiangolo/uwsgi-nginx-flask:python3.6
 
 RUN mkdir /code
 WORKDIR /code
